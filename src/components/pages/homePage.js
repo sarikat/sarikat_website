@@ -4,7 +4,8 @@ class Homepage extends React.Component {
     render () {
         return (
             <div className="wrap container-fluid">
-                My content
+                <h1>Content baby!!!!</h1>
+                <p>yea bitch dis go hard as hell</p>
             </div>
           );
     }

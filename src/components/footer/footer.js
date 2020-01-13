@@ -4,8 +4,7 @@ class Footer extends React.Component {
     render () {
         return (
             <footer>
-                Footer
-                
+                <p className='centred'>nice to see u ;) hate 2 see u go ;(</p>
             </footer>
           );
     }

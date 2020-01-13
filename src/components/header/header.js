@@ -1,22 +1,26 @@
 import React from 'react';
+import {
+    Link
+  } from 'react-router-dom';
 
 class Header extends React.Component {
     render () {
         return (
             <header>
                 <div className='logo'>
-                    Sarika's site
+                    SARIKA TYAGI
                 </div>
                 <nav>
                     <ul>
-                        <li>
-                            <a href='#'>Home</a>
+                        <li className='first'>
+                            <Link to="/">Home</Link>
+
                         </li>
                         <li>
-                            <a href='#'>Projects</a>
+                            <Link to="/projects">Projects</Link>
                         </li>
-                        <li>
-                            <a href='#'>Contact</a>
+                        <li className='last'>
+                            <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
                 </nav>
